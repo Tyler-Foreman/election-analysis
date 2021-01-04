@@ -111,7 +111,7 @@ with open(file_to_save, "w") as txt_file:
 
 
         # 6f: Write an if statement to determine the winning county and get its vote count.
-        if (votes > largest_turnout_votes) and (vote_percentage > winning_percentage):
+        if (votes > largest_turnout_votes):
             # If the following statements are both true
             # Set largest_turnout_votes = votes AND largest_turnout_county = county_name
             largest_turnout_votes = votes
